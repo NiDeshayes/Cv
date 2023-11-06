@@ -1,0 +1,253 @@
+.bloc-rouge {
+
+
+    padding-top:3%;
+    background-color: #782221;
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+
+}   
+
+.photo {
+
+    background-image:  url(../images/photo.jpg);
+    width:100px ;
+    height:100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px black;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: zoom-in;
+    
+}
+
+.bloc-gris {
+
+    font-size: 10px;
+    padding-top: 20px;
+    background-color: #2c1d27 ;
+    color: white;
+    display: flex;
+    justify-content:  space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 10px;
+}
+
+.mail >*{
+
+    padding-right: 30px;
+    color: white;
+    text-decoration-line: none;
+}
+ 
+.adresse >*{
+
+    color: white;
+    text-decoration-line: none;
+
+}
+
+.telephone >*{
+
+    color: white;
+    text-decoration-line: none;
+
+}
+
+
+
+
+
+.cadre-gauche {
+
+
+padding-top: 25px;
+width:  20%;
+background-color: #782221;
+padding-right: 40px;
+
+
+
+}
+
+
+.titre { 
+
+    font-family: 'Lato', sans-serif;   
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #dbc2a4 ;
+    padding-left: 20px  ; 
+    display: flex;
+   
+}
+
+
+
+
+
+
+.cadre-millieu {
+
+margin-top: 20px;
+padding-left: 5%; 
+width: 80%;
+
+}
+
+
+.sous-titre{
+
+    font-family: 'Raleway', sans-serif;    
+    font-size:  14px;
+}
+
+
+.text {
+
+    font-family: 'Raleway', sans-serif;
+    padding-left: 100px;
+
+}
+
+.partie-body {
+
+display: flex ;
+
+}
+
+body {
+    margin: auto;
+    width: 1160px;
+}
+
+.petit-carré {
+
+
+    height: 30px;
+    width: 10px;
+    background-color: #651d1c;
+    
+}
+
+.text-white {
+
+    font-family: 'Raleway', sans-serif;
+    color:rgb(209, 197, 197);
+    padding-left: 35px;
+}
+
+.padding-left {
+
+
+padding-left: 20px;
+
+}
+
+.titre-central { 
+
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #dbc2a4 ;
+    display: flex;
+    margin-right: 30px;
+    }
+
+.fond-bloc-rouge {
+    
+    height: 200px;
+    background-color: #782221;
+   
+
+}
+
+
+
+footer {
+
+    width: 100%;
+
+}
+
+.Github > a > img {
+
+    height: 50px;
+    background-size: contain;
+    width: 50px;
+}
+
+.linkedin > a > img {
+
+    height: 50px;
+    background-size: contain;
+    width: 50px;
+
+}
+
+.twitter > a > img {
+
+    height: 50px;
+    background-size: contain;
+    width: 50px;
+}
+
+
+
+
+
+.logos {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center; /* Centrer verticalement les éléments dans le conteneur */
+    padding-top: 40px;
+    margin: 0 auto; /* Centrer horizontalement les éléments dans leur conteneur */
+
+}
+
+.logos img {
+
+    max-width: 100%; /* Pour éviter que les images ne dépassent de leur conteneur */
+    margin: 0 5px; /* Ajoute un espace de 5 pixels à gauche et à droite de chaque image */
+
+}
+
+.last-text {
+
+    text-align: center;
+    /* justify-content: center; */
+    padding-top: 20px;
+    color:rgb(209, 197, 197);
+    
+
+}
+
+.trait-rouge:hover {
+
+    border-right: 22px solid #6d071a; /* Ajoute un trait bordeaux de 3 pixels à droite de l'élément survolé */
+    transition: border-right 0.3s; /* Ajoute une transition fluide pour une animation lors du survol */
+
+
+}
+
+.center-text {
+    text-align: center;
+}
+
+.mail ,
+.adresse ,
+.telephone  {
+    text-decoration: none; 
+}
+
+.mail  :hover,
+.adresse  :hover,
+.telephone   :hover{
+    text-decoration: underline; 
+}
