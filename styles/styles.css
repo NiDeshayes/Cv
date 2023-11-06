@@ -1,11 +1,14 @@
 .bloc-rouge {
 
-
-    padding-top:3%;
+    display: flex;
+    flex-direction: column; /* Pour que les éléments à l'intérieur soient empilés verticalement */
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0; /* Utilisation d'une seule propriété pour définir la marge en haut et en bas */
     background-color: #782221;
     text-align: center;
     color: white;
-    padding-bottom: 3%;
+    
 
 }   
 
@@ -19,8 +22,8 @@
     border-radius: 50%;
     box-shadow: 10px 5px 5px black;
     margin-bottom: 1%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     cursor: zoom-in;
     
 }
@@ -65,25 +68,35 @@
 
 .cadre-gauche {
 
-
-padding-top: 25px;
-width:  20%;
-background-color: #782221;
-padding-right: 40px;
+   
+    padding-top: 25px;
+    width:  20%;
+    background-color: #782221;
+    padding-right: 40px; 
+    padding-left: 20px;
 
 
 
 }
 
 
+
 .titre { 
 
-    font-family: 'Lato', sans-serif;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #dbc2a4;
+    padding-left: 20px;
+    /* font-family: 'Lato', sans-serif;   
     font-size: 20px;
     font-weight: 900;
     background-color: #dbc2a4 ;
     padding-left: 20px  ; 
-    display: flex;
+    display: flex; */
    
 }
 
@@ -139,7 +152,7 @@ body {
 
     font-family: 'Raleway', sans-serif;
     color:rgb(209, 197, 197);
-    padding-left: 35px;
+    
 }
 
 .padding-left {
@@ -174,28 +187,18 @@ footer {
 
 }
 
-.Github > a > img {
+.social-icon > a > img {
 
     height: 50px;
     background-size: contain;
     width: 50px;
+    transition: opacity .3s;
+    
 }
 
-.linkedin > a > img {
-
-    height: 50px;
-    background-size: contain;
-    width: 50px;
-
+.social-icon:hover {
+    opacity: 0.8; /* Vous pouvez ajuster cette valeur selon vos préférences */
 }
-
-.twitter > a > img {
-
-    height: 50px;
-    background-size: contain;
-    width: 50px;
-}
-
 
 
 
